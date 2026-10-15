@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Explore India - Gallery</title>
+</head>
+
+<body>
+
+    <h1>Explore India - Gallery</h1>
+
+    <p>
+        Welcome to our travel gallery. Here are some beautiful
+        places and views from different parts of India.
+    </p>
+
+    <hr>
+
+    <h2>Navigation</h2>
+
+    <a href="index.html">Home</a> |
+    <a href="destinations.html">Destinations</a> |
+    <a href="foods.html">Foods</a> |
+    <a href="places.html">Places</a> |
+    <a href="gallery.html">Gallery</a> |
+    <a href="contact.html">Contact</a>
+
+    <hr>
+
+    <!-- Beaches -->
+    <h2>Beaches</h2>
+
+    <img
+        src="https://upload.wikimedia.org/wikipedia/commons/5/51/Baga_Beach%2C_Goa.jpg"
+        alt="Baga Beach Goa"
+        width="350"
+        height="250"
+    >
+
+    <img
+        src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Calangute_Beach%2C_Goa.jpg"
+        alt="Calangute Beach Goa"
+        width="350"
+        height="250"
+    >
+
+    <hr>
+
+    <!-- Mountains -->
+    <h2>Mountains</h2>
+
+    <img
+        src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Manali%2C_Himachal_Pradesh.jpg"
+        alt="Manali Mountains"
+        width="350"
+        height="250"
+    >
+
+    <img
+        src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Himalayas.jpg"
+        alt="Himalayan Mountains"
+        width="350"
+        height="250"
+    >
+
+    <hr>
+
+    <!-- Historical Places -->
+    <h2>Historical Places</h2>
+
+    <img
+        src="https://upload.wikimedia.org/wikipedia/commons/d/da/Taj-Mahal.jpg"
+        alt="Taj Mahal"
+        width="350"
+        height="250"
+    >
+
+    <img
+        src="https://upload.wikimedia.org/wikipedia/commons/3/3b/India_Gate%2C_New_Delhi_at_Night_2017.jpg"
+        alt="India Gate"
+        width="350"
+        height="250"
+    >
+
+    <hr>
+
+    <!-- Cities -->
+    <h2>Cities</h2>
+
+    <img
+        src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Mumbai_skyline.jpg"
+        alt="Mumbai City"
+        width="350"
+        height="250"
+    >
+
+    <img
+        src="https://upload.wikimedia.org/wikipedia/commons/9/9e/New_Delhi_City.jpg"
+        alt="Delhi City"
+        width="350"
+        height="250"
+    >
+
+    <hr>
+
+    <h2>Explore More</h2>
+
+    <a href="index.html">Home</a><br>
+    <a href="destinations.html">Destinations</a><br>
+    <a href="foods.html">Foods</a><br>
+    <a href="places.html">Places</a><br>
+    <a href="contact.html">Contact</a>
+
+</body>
+</html>

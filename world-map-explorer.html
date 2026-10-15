@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>World Map Explorer</title>
+</head>
+
+<body>
+
+    <h1>World Map Explorer</h1>
+
+    <p>
+        Click on different areas of the map to explore information
+        about different countries.
+    </p>
+
+    <!-- World Map Image -->
+    <img
+        src="https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg"
+        alt="World Map"
+        width="800"
+        height="450"
+        usemap="#worldmap"
+    >
+
+    <!-- Image Map -->
+    <map name="worldmap">
+
+        <!-- Circle: India -->
+        <area
+            shape="circle"
+            coords="570,270,35"
+            href="https://en.wikipedia.org/wiki/India"
+            alt="India"
+            target="_blank"
+        >
+
+        <!-- Rectangle: USA -->
+        <area
+            shape="rect"
+            coords="100,150,230,220"
+            href="https://en.wikipedia.org/wiki/United_States"
+            alt="United States"
+            target="_blank"
+        >
+
+        <!-- Polygon: Brazil -->
+        <area
+            shape="poly"
+            coords="300,285,340,270,380,290,370,350,330,360,300,330"
+            href="https://en.wikipedia.org/wiki/Brazil"
+            alt="Brazil"
+            target="_blank"
+        >
+
+        <!-- Rectangle: Australia -->
+        <area
+            shape="rect"
+            coords="650,330,760,400"
+            href="https://en.wikipedia.org/wiki/Australia"
+            alt="Australia"
+            target="_blank"
+        >
+
+        <!-- Polygon: China -->
+        <area
+            shape="poly"
+            coords="550,190,620,180,650,210,620,250,560,240"
+            href="https://en.wikipedia.org/wiki/China"
+            alt="China"
+            target="_blank"
+        >
+
+        <!-- Default: Other areas -->
+        <area
+            shape="default"
+            href="https://en.wikipedia.org/wiki/World"
+            alt="Other Areas"
+            target="_blank"
+        >
+
+    </map>
+
+    <hr>
+
+    <h2>Instructions</h2>
+
+    <ul>
+        <li>Click India to learn about India.</li>
+        <li>Click USA to learn about the United States.</li>
+        <li>Click Brazil to learn about Brazil.</li>
+        <li>Click Australia to learn about Australia.</li>
+        <li>Click China to learn about China.</li>
+    </ul>
+
+</body>
+</html>
